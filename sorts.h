@@ -15,15 +15,15 @@ using namespace std;
 
 template <class T>
 class Sorts {
-	private:
-	void swap(vector<int>&, int, int);
-	void arrayMerge(vector<int>&, vector<int>&,vector<int>&);
-	public:
-  void ordenaSeleccion(vector<int>&);
-	void ordenaBurbuja(vector<int>&);
-  void ordenaMerge(vector<int>&);
-  int busqSecuencial(const vector<int> &, int);
-  int busqBinaria(const vector<int> &, int);
+private:
+void swap(vector<int>&, int, int);
+void arrayMerge(vector<int>&, vector<int>&,vector<int>&);
+public:
+void ordenaSeleccion(vector<int>&);
+void ordenaBurbuja(vector<int>&);
+void ordenaMerge(vector<int>&);
+int busqSecuencial(const vector<int> &, int);
+int busqBinaria(const vector<int> &, int);
 
 };
 
